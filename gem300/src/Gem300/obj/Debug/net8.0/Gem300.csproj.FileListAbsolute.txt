@@ -1,0 +1,12 @@
+/workspace/gem300/src/Gem300/bin/Debug/net8.0/Gem300.deps.json
+/workspace/gem300/src/Gem300/bin/Debug/net8.0/Gem300.dll
+/workspace/gem300/src/Gem300/bin/Debug/net8.0/Gem300.pdb
+/workspace/gem300/src/Gem300/obj/Debug/net8.0/Gem300.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/gem300/src/Gem300/obj/Debug/net8.0/Gem300.AssemblyInfoInputs.cache
+/workspace/gem300/src/Gem300/obj/Debug/net8.0/Gem300.AssemblyInfo.cs
+/workspace/gem300/src/Gem300/obj/Debug/net8.0/Gem300.csproj.CoreCompileInputs.cache
+/workspace/gem300/src/Gem300/obj/Debug/net8.0/Gem300.sourcelink.json
+/workspace/gem300/src/Gem300/obj/Debug/net8.0/Gem300.dll
+/workspace/gem300/src/Gem300/obj/Debug/net8.0/refint/Gem300.dll
+/workspace/gem300/src/Gem300/obj/Debug/net8.0/Gem300.pdb
+/workspace/gem300/src/Gem300/obj/Debug/net8.0/ref/Gem300.dll
