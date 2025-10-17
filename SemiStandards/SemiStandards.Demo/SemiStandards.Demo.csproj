@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" />
+  <PropertyGroup>
+    <ProjectGuid>{10123456-16F7-4668-BE54-9A1E7A4F7556}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SemiStandards.Demo</RootNamespace>
+    <AssemblyName>SemiStandards.Demo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <StartupObject>SemiStandards.Demo.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SemiStandards.Common\SemiStandards.Common.csproj">
+      <Project>{9A19103F-16F7-4668-BE54-9A1E7A4F7556}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SemiE39\SemiE39.csproj">
+      <Project>{A1234567-16F7-4668-BE54-9A1E7A4F7556}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SemiE84\SemiE84.csproj">
+      <Project>{B2345678-16F7-4668-BE54-9A1E7A4F7556}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SemiE87\SemiE87.csproj">
+      <Project>{C3456789-16F7-4668-BE54-9A1E7A4F7556}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SemiE90\SemiE90.csproj">
+      <Project>{D4567890-16F7-4668-BE54-9A1E7A4F7556}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SemiE94\SemiE94.csproj">
+      <Project>{E5678901-16F7-4668-BE54-9A1E7A4F7556}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SemiE116\SemiE116.csproj">
+      <Project>{F6789012-16F7-4668-BE54-9A1E7A4F7556}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
