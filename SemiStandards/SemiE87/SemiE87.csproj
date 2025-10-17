@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" />
+  <PropertyGroup>
+    <ProjectGuid>{C3456789-16F7-4668-BE54-9A1E7A4F7556}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SemiE87</RootNamespace>
+    <AssemblyName>SemiE87</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="E87Enums.cs" />
+    <Compile Include="Carrier.cs" />
+    <Compile Include="LoadPort.cs" />
+    <Compile Include="E87Manager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SemiStandards.Common\SemiStandards.Common.csproj">
+      <Project>{9A19103F-16F7-4668-BE54-9A1E7A4F7556}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SemiE90\SemiE90.csproj">
+      <Project>{D4567890-16F7-4668-BE54-9A1E7A4F7556}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
